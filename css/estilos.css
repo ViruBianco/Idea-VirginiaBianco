@@ -1,0 +1,601 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*PÁGINA INICIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO************************/
+/*MENU DE NAVEGACIÓNNNNNN*/
+
+nav{
+    width: 100%; height: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2D2741;
+}
+
+nav .logo{
+    width: 10%; height: 100%;
+}
+
+nav .logo img{
+    width: 100%; height: 100%;
+    object-fit: contain;
+    margin-left: 70px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    width: 30%; height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 70px;
+}
+
+nav ul a{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    color: #F4F4F4;
+    text-decoration: none;
+}
+
+body{
+    background-color: #F4F4F4;
+}
+
+/*PRESENTACIÓNNNNNNN*/
+
+.presentacion {
+    min-height: 70vh;
+    min-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.presentacion__texto, .presentacion__img {
+    width: 50%;
+}
+
+
+.presentacion__texto h1{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 40px;
+    color: #2D2741;
+    width: 270px; height: 120px;
+    line-height: 35px;
+}
+
+.presentacion__texto p {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #2D2741;
+    font-size: 20px;
+    width: 270px; height: 120px;
+}
+
+.presentacion__img{
+    object-fit: contain;
+}
+
+/*SERVICIOSSSSSSSSS*/
+
+.servicios {
+    background-color: #2D2741;
+    width: 100%; height: 70vh;
+    position: relative;
+}
+
+.servicios div {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+.servicios p {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #F4F4F4;
+    font-size: 20px;    
+    width: 400px; height: 200px;
+    text-align: center;
+}
+
+.boton01{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    color: #F4F4F4;
+    border: 3px solid #E635E4;
+    padding: 22px;
+    position: absolute;
+    top: 80%;
+    left: 25%;
+}
+
+/*TRABAJOSSSSSSSSS*/
+
+.trabajos{
+    width: 100%; height: 90vh;
+    background-color: #F4F4F4;
+    position: relative;
+    display: flex;
+}
+
+.trabajos h1{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 40px;
+    color: #2D2741;
+    width: 380px; height: 120px;
+    line-height: 35px;
+    position: absolute;
+    top: 8%;
+    left: 20%;
+}
+
+.trabajos__img{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
+
+.boton02{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    color: #E635E4;
+    border: 3px solid #E635E4;
+    padding: 22px;
+    position: absolute;
+    top: 80%;
+    left: 45%;
+}
+
+/*CONTACTOOOOOOOOOOOOOO*/
+
+.contacto {
+    width: 100%; height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #2D2741;
+}
+
+.contacto div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto h1{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 40px;
+    color: #F4F4F4;
+    width: 400px; height: 120px;
+    line-height: 35px;
+    text-align: center; 
+}
+
+.contacto a{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    color: #F4F4F4;
+    border: 3px solid #E635E4;
+    padding: 22px;
+    text-align: center; 
+    margin-top: 60px;
+}
+
+/*FOOTERRRRRRRRRRRRRRRRRRRRR*/
+
+footer{
+    width: 100%; height: 18vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F4F4F4;
+}
+
+footer .logofooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .logofooter img{
+    width: 50%; height: 50%;
+    object-fit: contain;
+    margin-left: 70px;
+}
+
+footer .iconosrrss{
+    display: flex;
+    width: 20%; height: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .iconosrrss img{
+    display: flex;
+    width: 80%; height: 80%;
+    object-fit: contain;
+}
+
+
+
+/*PÁGINA SERVICIOSSSSSSSSSSSSSS************************/
+
+.tituloservicios{
+    width: 100%; height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+}
+
+.tituloservicios h1{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 40px;
+    color: #2D2741;
+    width: 400px; height: 150px;
+    line-height: 35px;
+    margin-left: 100px;
+}
+
+.tituloservicios p{
+    font-family: 'Space Grotesk', sans-serif;
+    color: #2D2741;
+    font-size: 20px;
+    width: 270px; height: 120px;
+    margin-left: 100px;
+}
+
+.tituloservicios img{
+    width: 70%; height: 100%;
+    object-fit: contain;
+}
+
+.tarjetasservicios{
+    width: 100%; height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #2D2741;
+}
+
+.tarjetasservicios div{
+    width: 270px; height: 110px;
+    background-color: #F4F4F4;
+    border: 3px solid #2D2741;
+    padding: 22px;
+    margin-top: 5%;
+    margin-left: 50px;
+}
+
+.tarjetasservicios h2{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 30px;
+    color: #2D2741;
+    width: 200px; height: 100px;
+    line-height: 35px;
+}
+
+.tarjetasservicios p{
+    font-family: 'Space Grotesk', sans-serif;
+    color: #2D2741;
+    font-size: 16px;
+    width: 270px; height: 330px;
+    background-color: #F4F4F4;
+    border: 3px solid #2D2741;
+    padding: 22px;
+}
+
+.botonservicios{
+    width: 100%; height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #2D2741;
+}
+
+.botonservicios a{
+    margin-bottom: 40px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    color: #F4F4F4;
+    border: 3px solid #E635E4;
+    padding: 22px;
+}
+
+/*PÁGINA PORTFOLIOOOOOOOOOOOOOOOOOOOOO************************/
+
+.tituloportfolio{
+    width: 100%; height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+}
+
+.tituloportfolio div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloportfolio h1{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 40px;
+    color: #2D2741;
+    width: 400px; height: 120px;
+    line-height: 35px;
+    text-align: center;    
+}
+
+.tituloportfolio p{
+    font-family: 'Space Grotesk', sans-serif;
+    color: #2D2741;
+    font-size: 20px;
+    width: 100%; height: 100px;
+    text-align: center;
+}
+
+.imgportfolio{
+    width: 100%; height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow:hidden;
+}
+
+.imgportfolio:hover .img {-webkit-transform:scale(1.3);transform:scale(1.3);}
+
+
+
+/*PÁGINA CONTACTOOOOOOOOOOOOOOOOOOOOOO************************/
+
+.titulocontacto{
+    width: 100%; height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+}
+
+.titulocontacto div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulocontacto h1{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 40px;
+    color: #2D2741;
+    width: 400px; height: 100px;
+    line-height: 35px;
+    text-align: center;    
+}
+
+.titulocontacto p{
+    font-family: 'Space Grotesk', sans-serif;
+    color: #2D2741;
+    font-size: 20px;
+    width: 600px; height: 30px;
+    text-align: center;
+}
+
+.formulario{
+    width: 100%; height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+    margin-top: 2px;
+}
+
+.formulario input{
+    width: 100%; height: auto;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    color: #3d3d3d;
+    border: 3px solid #2D2741;
+    padding: 22px;
+    margin: 12px;
+}
+
+.formulario select{
+    width: 100%; height: auto;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    color: #3d3d3d;
+    border: 3px solid #2D2741;
+    padding: 22px;
+    margin: 12px;
+}
+
+.formulario textarea{
+    width: 100%; height: auto;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    color: #3d3d3d;
+    border: 3px solid #2D2741;
+    padding: 22px;
+    margin: 12px;
+}
+
+.formulario button{
+    width: 100%; height: auto;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    color: #E635E4;
+    border: 3px solid #E635E4;
+    padding: 22px;
+    margin: 12px;
+}
+
+
+
+
+
+
+/*PÁGINA PREGUNTAS FRECUENTES************************/
+
+.titulopf{
+    width: 100%; height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F4F4F4;
+}
+
+.titulopf h1{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 40px;
+    color: #2D2741;
+    width: 600px; height: 100px;
+    line-height: 35px;
+    text-align: center;    
+}
+
+.pregyresp{
+    width: 100%; height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: #F4F4F4;
+    flex-wrap: wrap;
+}
+
+.pregyresp div{
+    width: 40%; height: 30vh;
+}
+
+.pregyresp h4{
+    font-family: 'Space Grotesk', sans-serif;
+    color: #2D2741;
+    font-size: 20px;
+    font-weight: bold;
+    width: 400px; height: 30px;
+    text-align: left;
+    margin-left: 20%;
+}
+
+.pregyresp p{
+    font-family: 'Space Grotesk', sans-serif;
+    color: #2D2741;
+    font-size: 20px;
+    width: 400px; height: 30px;
+    text-align: left;
+    margin-left: 20%;
+}
+
+.consultaspf{
+    width: 100%; height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    background-color: #2D2741;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.consultaspf h4{
+    font-family: 'Space Grotesk', sans-serif;
+    color: #F4F4F4;
+    font-size: 20px;
+    font-weight: bold;
+    width: 50%; height: 30px;
+    text-align: center;
+}
+
+.consultaspf h4 span{
+    color: #E635E4;
+    text-decoration: underline;
+}
+
+
+
+
+@media screen and (max-width:600px){
+
+    nav{
+        flex-direction: row;
+        justify-content: left;
+        align-items: left;
+    }
+
+    nav .logo{
+        width: 40%; height: 100%;
+    }
+    
+    nav ul{
+        list-style: none;
+        display: none;
+    }
+
+    .presentacion{
+        width: 100%; height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    
+    .presentacion h1{
+        text-align: center;
+    }
+    
+    .presentacion p {
+        text-align: center;
+    }
+    
+
+    .imgportfolio{
+        padding-top: 3rem;
+        width: 100%; height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contacto{
+        width: 100%; height: 60vh;
+        background-color: #2D2741;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer{
+        width: 100%; height: 18vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #F4F4F4;
+    }
+
+
+    footer .iconosrrss img{
+        display: flex;
+        width: 100%; height: 100%;
+        margin-top: 30px;
+    }
+
+
+}
