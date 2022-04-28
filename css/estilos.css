@@ -357,9 +357,23 @@ footer .iconosrrss img{
     overflow:hidden;
 }
 
-.imgportfolio:hover .img {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.imgportfolio img{
+    transition: all 0.3s ease;
+}
 
+.imgportfolio img:hover {
+transform: scale(4px);
+filter: blur(2px);
+}
 
+.btncontacto{
+    transition: all 0.2s;
+}
+
+.btncontacto:hover{
+    background-color: #E635E4;
+color: #2D2741;
+}
 
 /*PÁGINA CONTACTOOOOOOOOOOOOOOOOOOOOOO************************/
 
