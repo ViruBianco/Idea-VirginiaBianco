@@ -7,7 +7,7 @@
     <title>Inicio VB</title>
     <!--ESTILOS CSS-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
 
     <!--TIPOGRAFIAS-->
@@ -17,6 +17,7 @@
 </head>
 
 <body>
+    <div class="container">
 <header id="menu-inicio">
     <nav>
         <div class="logo">
@@ -32,13 +33,13 @@
     </nav>
 </header>
 
-<main>
+<main class="row">
     <section class="presentacion">   
-        <div class="presentacion__texto">
+        <div class="col-5">
             <h1>HOLA! SOY VIRU BIANCO*</h1>
             <p>Diseñadora gráfica, especializada en medios digitales e identidad visual.</p>
         </div>
-        <div class="presentacion__img">
+        <div class="col">
             <img src="imagenes/Foto personal.png" alt="Foto virubianco" width="334,18" height="346,29">
         </div>
     </section>
@@ -49,7 +50,7 @@
 
                 ¡Hacé de tu marca un espacio único!</p>
                 <!--Botón Quiero conocer los servicios-->
-            <a class="boton01" href="pages/servicios.html">Quiero conocer los servicios</a> <STYLE>A {text-decoration: none;} </STYLE>
+            <a class="boton01 btncontacto" href="pages/servicios.html">Quiero conocer los servicios</a> <STYLE>A {text-decoration: none;} </STYLE>
         </div>
     </section>
 
@@ -57,14 +58,13 @@
         <div>
             <h1>/MI CARPETA DE TRABAJOS</h1>
         </div>
-        <div class="trabajos__img">
+        <div class="imgportfolio">
             <img src="imagenes/Trabajos 1.png" alt="Trabajo1" width="300" height="300">
             <img src="imagenes/Trabajos 2.png" alt="Trabajo2" width="300" height="300">
             <img src="imagenes/Trabajos 3.png" alt="Trabajo3" width="300" height="300">
         </div>
         <div>
-                             <!--Botón Ver todos-->
-            <a class="boton02" href="pages/portfolio.html">Ver todos</a>
+            <a class="boton02 btnvertodos" href="pages/portfolio.html">Ver todos</a>
         </div>
     </section>
 
@@ -72,7 +72,7 @@
         <div>
             <h1>DISEÑEMOS JUNTXS TU VIDRIERA AL MUNDO!</h1>
             <!--Botón Quiero contactarme-->
-            <a href="pages/contacto.html">¡Quiero contactarme!</a>
+            <a class="btncontacto" href="pages/contacto.html">¡Quiero contactarme!</a>
         </div>
     </section>
 </main>
@@ -97,5 +97,6 @@
         </a>
     </div>
 </footer>
+</div>
 </body>
 </html>
