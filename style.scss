@@ -49,11 +49,12 @@ body{
 /*PRESENTACIÓNNNNNNN*/
 
 .presentacion {
-    max-width: 100%; min-height: 70vh;
+    max-width: 100%; min-height: 60vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-left: 110px;
 }
 
 .presentacion h1{
@@ -61,12 +62,14 @@ body{
     font-size: 40px;
     color: #2D2741;
     line-height: 35px;
+
 }
 
 .presentacion p {
     font-family: 'Space Grotesk', sans-serif;
     color: #2D2741;
     font-size: 20px;
+
 }
 
 .presentacion img{
@@ -135,6 +138,7 @@ body{
     color: #2D2741;
     line-height: 35px;
     text-align: center; 
+    margin-bottom: 40px;
 }
 
 .trabajos img{
