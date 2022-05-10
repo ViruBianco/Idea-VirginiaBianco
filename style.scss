@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+
+
+
 /*PÁGINA INICIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO************************/
 /*MENU DE NAVEGACIÓNNNNNN*/
 
@@ -202,42 +205,7 @@ color: #2D2741;
     margin-top: 60px;
 }
 
-/*FOOTERRRRRRRRRRRRRRRRRRRRR*/
 
-footer{
-    max-width: 100%; min-height: 18vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #F4F4F4;
-}
-
-footer .logofooter{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-footer .logofooter img{
-    width: 50%; height: 50%;
-    object-fit: contain;
-    margin-left: 70px;
-}
-
-footer .iconosrrss{
-    display: flex;
-    width: 20%; height: 30%;
-    justify-content: center;
-    align-items: center;
-}
-
-footer .iconosrrss img{
-    display: flex;
-    width: 80%; height: 80%;
-    object-fit: contain;
-}
 
 
 
@@ -673,3 +641,8 @@ margin-top: 40px;
 
 
 }
+
+/*las variables siempre van arriba de todo*/
+@import './componentes/variables';
+@import './componentes/footer';
+
