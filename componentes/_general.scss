@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/*PÁGINA INICIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO************************/
+/*MENU DE NAVEGACIÓNNNNNN*/
+
+nav{
+    max-width: 100%; min-height: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2D2741;
+}
+
+nav .logo{
+    width: 10%; height: 100%;
+}
+
+nav .logo img{
+    width: 100%; height: 100%;
+    object-fit: contain;
+    margin-left: 70px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    width: 50%; height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 70px;
+}
+
+nav ul a{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    color: #F4F4F4;
+    text-decoration: none;
+}
+
+body{
+    background-color: $bgColor;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+
+
+/*FOOTERRRRRRRRRRRRRRRRRRRRR*/
+
+footer{
+    max-width: 100%; min-height: 18vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F4F4F4;
+}
+
+footer .logofooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .logofooter img{
+    width: 50%; height: 50%;
+    object-fit: contain;
+    margin-left: 70px;
+}
+
+footer .iconosrrss{
+    display: flex;
+    width: 20%; height: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .iconosrrss img{
+    display: flex;
+    width: 80%; height: 80%;
+    object-fit: contain;
+}
+
+.tituloH1{
+    font-family: $fontTitle;
+    font-size: 40px;
+    color: #2D2741;
+    width: 600px;
+    line-height: 35px;
+    text-align: center;    
+}
+
+@mixin boton1($colorTexto){
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    color: $colorTexto;
+    border: 3px solid #E635E4;
+    padding: 22px;
+}
+

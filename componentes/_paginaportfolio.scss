@@ -1,0 +1,56 @@
+
+.tituloportfolio{
+    width: 100%; height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+}
+
+.tituloportfolio div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloportfolio h1{
+    @extend .tituloH1;
+    margin-bottom: 40px;  
+}
+
+.tituloportfolio p{
+    font-family: 'Space Grotesk', sans-serif;
+    color: #2D2741;
+    font-size: 20px;
+    width: 40%; height: 100px;
+    text-align: center;
+}
+
+.imgportfolio{
+    width: 100%; height: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow:hidden;
+    margin-bottom: 50px;
+}
+
+.imgportfolio img{
+    transition: all 0.3s ease;
+}
+
+.imgportfolio img:hover {
+transform: scale(4px);
+filter: blur(2px);
+}
+
+.btncontacto{
+    transition: all 0.2s;
+}
+
+.btncontacto:hover{
+    background-color: #E635E4;
+color: #2D2741;
+}

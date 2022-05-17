@@ -1,0 +1,136 @@
+.presentacion {
+    max-width: 100%; min-height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 110px;
+}
+
+.presentacion h1{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 40px;
+    color: #2D2741;
+    line-height: 35px;
+
+}
+
+.presentacion p {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #2D2741;
+    font-size: 20px;
+
+}
+
+.presentacion img{
+    object-fit: contain;
+    margin: 100px;
+}
+
+/*SERVICIOSSSSSSSSS*/
+
+.servicios {
+    background-color: #2D2741;
+    max-width: 100%; min-height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.servicios p {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #F4F4F4;
+    font-size: 20px; 
+    width: 70%; height: 120px;
+    text-align: center;       
+}
+
+.boton01{
+@include boton1(#F4F4F4);
+}
+
+/*TRABAJOSSSSSSSSS*/
+
+.trabajos{
+    max-width: 100%; min-height: 90vh;
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.trabajos div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.trabajos h1{
+    @extend .tituloH1;
+    margin-bottom: 40px;
+}
+
+.trabajos img{
+    align-items: center;
+    margin-top: 50px;
+}
+
+.boton02{
+    @include boton1(#e635e4);
+    margin-top: 40px;
+}
+
+.btnvertodos{
+    transition: all 0.2s;
+}
+
+.btnvertodos:hover{
+    background-color: #E635E4;
+color: #2D2741;
+}
+
+/*CONTACTOOOOOOOOOOOOOO*/
+
+.contacto {
+    max-width: 100%; min-height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #2D2741;
+}
+
+.contacto div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto h1{
+    @extend .tituloH1;
+    color: #F4F4F4;
+}
+
+.contacto a{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    color: #F4F4F4;
+    border: 3px solid #E635E4;
+    padding: 22px;
+    text-align: center; 
+    margin-top: 60px;
+}

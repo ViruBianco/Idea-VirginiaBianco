@@ -1,0 +1,85 @@
+/*PÁGINA CONTACTOOOOOOOOOOOOOOOOOOOOOO************************/
+
+.titulocontacto{
+    width: 100%; height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+}
+
+.titulocontacto div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulocontacto h1{
+    @extend .tituloH1;
+    text-align: center;    
+    margin-bottom: 40px;
+}
+
+.titulocontacto p{
+    font-family: 'Space Grotesk', sans-serif;
+    color: #2D2741;
+    font-size: 20px;
+    width: 600px; height: 30px;
+    text-align: center;
+}
+
+.formulario{
+    width: 100%; height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.formulario input{
+    width: 100%; height: auto;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    color: #3d3d3d;
+    border: 3px solid #2D2741;
+    padding: 22px;
+    margin: 12px;
+}
+
+.formulario select{
+    width: 100%; height: auto;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    color: #3d3d3d;
+    border: 3px solid #2D2741;
+    padding: 22px;
+    margin: 12px;
+}
+
+.formulario textarea{
+    width: 100%; height: auto;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    color: #3d3d3d;
+    border: 3px solid #2D2741;
+    padding: 22px;
+    margin: 12px;
+}
+
+.formulario button{
+    width: 100%; height: auto;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    color: #E635E4;
+    border: 3px solid #E635E4;
+    padding: 22px;
+    margin: 12px;
+}
+
+
+

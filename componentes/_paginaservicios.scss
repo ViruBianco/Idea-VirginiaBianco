@@ -1,0 +1,87 @@
+
+/*PÁGINA SERVICIOSSSSSSSSSSSSSS************************/
+
+.tituloservicios{
+    width: 100%; height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+}
+
+.tituloservicios h1{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 40px;
+    color: #2D2741;
+    width: 400px; height: 150px;
+    line-height: 35px;
+    margin-left: 100px;
+}
+
+.tituloservicios p{
+    font-family: 'Space Grotesk', sans-serif;
+    color: #2D2741;
+    font-size: 20px;
+    width: 270px; height: 120px;
+    margin-left: 100px;
+}
+
+.tituloservicios img{
+    width: 70%; height: 100%;
+    object-fit: contain;
+}
+
+.tarjetasservicios{
+    width: 100%; height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #2D2741;
+}
+
+.tarjetasservicios div{
+    width: 270px; height: 110px;
+    background-color: #F4F4F4;
+    border: 3px solid #2D2741;
+    padding: 22px;
+    margin-top: 5%;
+    margin-left: 50px;
+}
+
+.tarjetasservicios h2{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 30px;
+    color: #2D2741;
+    width: 200px; height: 100px;
+    line-height: 35px;
+}
+
+.tarjetasservicios p{
+    font-family: 'Space Grotesk', sans-serif;
+    color: #2D2741;
+    font-size: 16px;
+    width: 270px; height: 330px;
+    background-color: #F4F4F4;
+    border: 3px solid #2D2741;
+    padding: 22px;
+}
+
+.botonservicios{
+    width: 100%; height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #2D2741;
+}
+
+.botonservicios a{
+    margin-bottom: 40px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    color: #F4F4F4;
+    border: 3px solid #E635E4;
+    padding: 22px;
+}
